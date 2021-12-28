@@ -1,38 +1,36 @@
 .banner {
+  color: #fff;
   object-fit: contain;
   height: 448px;
 }
 
 .banner_contents {
-  color: white;
-  mix-blend-mode: difference;
   margin-left: 30px;
   padding-top: 140px;
   height: 190px;
 }
 
 .banner_title {
-  mix-blend-mode: difference;
+  text-shadow: #111 1px 0 10px;
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
 }
 
 .banner_description {
-  color: white;
+  text-shadow: #111 1px 0 10px;
   width: 45rem;
   line-height: 1.3;
   padding-top: 1rem;
   font-size: 1rem;
   max-width: 50%;
   height: 80px;
-  mix-blend-mode: difference;
 }
 
 .banner_button {
+  text-shadow: #111 1px 0 10px;
   cursor: pointer;
   color: white;
-  mix-blend-mode: difference;
   outline: none;
   border: none;
   font-weight: 700;
@@ -46,8 +44,8 @@
 }
 
 .banner_button:hover {
+  text-shadow: unset;
   color: #000;
-  mix-blend-mode: difference;
   background-color: #e6e6e6;
   transition: all 0.2s ease-in-out;
 }
