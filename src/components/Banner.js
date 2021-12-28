@@ -25,7 +25,7 @@ function Banner() {
    * @returns "..." when the string length is higher than the int provided in parameter
    */
   function truncate(str, n) {
-    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+    return str?.length > n ? str.substring(0, n - 1) + "..." : str;
   }
 
   return (
