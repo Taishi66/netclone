@@ -18,6 +18,12 @@ function Banner() {
     fetchData();
   }, []);
 
+  /**
+   *
+   * @param {string} str
+   * @param {int} n
+   * @returns "..." when the string length is higher than the int provided in parameter
+   */
   function truncate(str, n) {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }

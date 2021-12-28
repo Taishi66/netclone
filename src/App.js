@@ -6,10 +6,13 @@ import Banner from "./components/Banner";
 
 function App() {
   return (
-
-<div className='App'>
-      <Banner/>
-      <Row isLargeRow title='NETFLIX ORIGINALS'fetchUrl={requests.fetchNetflixOriginals}/>
+    <div className='App'>
+      <Banner />
+      <Row
+        isLargeRow
+        title='NETFLIX ORIGINALS'
+        fetchUrl={requests.fetchNetflixOriginals}
+      />
       <Row title='Trending now' fetchUrl={requests.fetchTrending} />
       <Row title='Top rated' fetchUrl={requests.fetchTopRated} />
       <Row title='Action Movies' fetchUrl={requests.fetchActionMovies} />
