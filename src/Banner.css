@@ -1,7 +1,7 @@
 .banner {
   color: #fff;
-  object-fit: contain;
-  height: 448px;
+  object-fit: cover;
+  height: 50em;
 }
 
 .banner_contents {
@@ -11,8 +11,8 @@
 }
 
 .banner_title {
-  text-shadow: #111 1px 0 10px;
-  font-size: 3rem;
+  text-shadow: #111 1px 0 10px !important;
+  font-size: 7rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
 }
@@ -22,7 +22,7 @@
   width: 45rem;
   line-height: 1.3;
   padding-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   max-width: 50%;
   height: 80px;
 }
@@ -33,6 +33,7 @@
   color: white;
   outline: none;
   border: none;
+  font-size: 1.5rem;
   font-weight: 700;
   border-radius: 0.2vw;
   padding-left: 2rem;
@@ -51,7 +52,7 @@
 }
 
 .banner--fadedBottom {
-  height: 7.4rem;
+  height: 30em;
   background-image: linear-gradient(
     180deg,
     transparent,
